@@ -1,4 +1,4 @@
-# Before automate the compile step dependencies ordering, let's clean up the
+# Before we automate the compile step dependencies ordering, let's clean up the
 # artifacts. We're naively cleaning all the artifacts before every compilation
 # to make sure that, when the compilation order changes because of a dependency
 # graph change, we don't pick up the stale, existing artifacts. If you're
